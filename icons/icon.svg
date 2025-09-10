@@ -1,0 +1,24 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="64" cy="64" r="60" fill="#007bff" stroke="#0056b3" stroke-width="4"/>
+  
+  <!-- 书本图标 -->
+  <rect x="40" y="30" width="48" height="60" rx="4" fill="white"/>
+  <rect x="44" y="34" width="40" height="52" fill="#f8f9fa"/>
+  
+  <!-- 书页线条 -->
+  <line x1="48" y1="45" x2="80" y2="45" stroke="#007bff" stroke-width="2"/>
+  <line x1="48" y1="52" x2="80" y2="52" stroke="#007bff" stroke-width="2"/>
+  <line x1="48" y1="59" x2="80" y2="59" stroke="#007bff" stroke-width="2"/>
+  <line x1="48" y1="66" x2="80" y2="66" stroke="#007bff" stroke-width="2"/>
+  <line x1="48" y1="73" x2="80" y2="73" stroke="#007bff" stroke-width="2"/>
+  
+  <!-- 书签标签 -->
+  <rect x="70" y="25" width="12" height="20" fill="#ffeb3b" stroke="#f57f17" stroke-width="1"/>
+  <polygon points="70,25 76,35 82,25" fill="#ffeb3b"/>
+  
+  <!-- 装饰性元素 -->
+  <circle cx="90" cy="40" r="3" fill="#28a745"/>
+  <circle cx="95" cy="50" r="2" fill="#dc3545"/>
+  <circle cx="88" cy="60" r="2.5" fill="#ffc107"/>
+</svg>
