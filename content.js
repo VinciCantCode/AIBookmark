@@ -143,7 +143,7 @@ class ContextBookmark {
     }
 
     if (!element || !text) {
-      alert('请先选中要添加书签的内容，或确保页面有可添加书签的内容');
+      alert('Please select content to bookmark or ensure the page has bookmarkable content');
       return;
     }
 
@@ -170,7 +170,7 @@ class ContextBookmark {
     this.updateBookmarkList();
     
     // 显示成功提示
-    this.showNotification('书签添加成功！');
+    this.showNotification('Bookmark added successfully!');
   }
 
   generateElementId(element) {
@@ -207,15 +207,15 @@ class ContextBookmark {
     this.bookmarks = this.bookmarks.filter(b => b.id !== bookmarkId);
     this.saveBookmarks();
     this.updateBookmarkList();
-    this.showNotification('书签已删除');
+    this.showNotification('Bookmark deleted');
   }
 
   clearAllBookmarks() {
-    if (confirm('确定要清空所有书签吗？')) {
+    if (confirm('Are you sure you want to clear all bookmarks?')) {
       this.bookmarks = [];
       this.saveBookmarks();
       this.updateBookmarkList();
-      this.showNotification('所有书签已清空');
+      this.showNotification('All bookmarks cleared');
     }
   }
 
@@ -226,7 +226,7 @@ class ContextBookmark {
     bookmarkItems.innerHTML = '';
 
     if (this.bookmarks.length === 0) {
-      bookmarkItems.innerHTML = '<div class="no-bookmarks">暂无书签</div>';
+      bookmarkItems.innerHTML = '<div class="no-bookmarks">No bookmarks yet</div>';
       return;
     }
 

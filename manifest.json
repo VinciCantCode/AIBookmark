@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "上下文书签",
+  "name": "AI Bookmark",
   "version": "1.0.0",
-  "description": "为GPT对话添加书签功能，快速定位到特定内容",
+  "description": "Add bookmarks to AI conversations for quick navigation and content management",
   "permissions": [
     "activeTab",
     "storage"
@@ -30,7 +30,7 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "上下文书签"
+    "default_title": "Context Bookmark"
   },
   "icons": {
     "16": "icons/icon16.png",

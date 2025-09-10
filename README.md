@@ -12,12 +12,6 @@
 
 <br>
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/AIBookmark?style=for-the-badge&logo=github)](https://github.com/yourusername/AIBookmark)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/AIBookmark?style=for-the-badge&logo=github)](https://github.com/yourusername/AIBookmark)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/AIBookmark?style=for-the-badge&logo=github)](https://github.com/yourusername/AIBookmark/issues)
-[![GitHub Actions](https://github.com/yourusername/AIBookmark/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/AIBookmark/actions)
-[![Codecov](https://codecov.io/gh/yourusername/AIBookmark/graph/badge.svg?token=YOUR_TOKEN)](https://codecov.io/gh/yourusername/AIBookmark)
-
 </div>
 
 一个为AI聊天对话添加书签功能的Chrome扩展，支持ChatGPT、Claude、Gemini等主流AI聊天平台。
